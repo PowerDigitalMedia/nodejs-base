@@ -1,8 +1,7 @@
 
 # NodeJS Base
 
-
-## 'Used as start point or building block.'
+## Used as start point or building block.
 
 
 
