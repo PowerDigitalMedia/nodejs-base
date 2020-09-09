@@ -1,0 +1,178 @@
+html, body {
+
+	/*background-color:#FCFCFC;*/
+	background-color:#1E232D;
+	width:100%;
+	height:100%;
+	margin: 0 0 0 0; /* to avoid margins */
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	color:#CCC;
+	text-align: center; /* IMPORTANT this can cause a shift in divs if set to the right or left*/
+
+	overflow:hidden;
+
+}
+
+
+
+@media screen and (max-device-width: 1280px) {
+	
+	
+	
+	html, body {
+		
+		background-color:#fcfcfc;/*#EBECF1;*/
+		width:100%;
+		height:100%;
+		margin: 0 0 0 0; /* to avoid margins */
+	
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:13px;
+		font-weight:normal;
+		color:#CCC;
+		text-align: center; /* IMPORTANT this can cause a shift in divs if set to the right or left*/
+	
+		overflow:hidden;
+	
+	}
+		
+	
+		
+}
+
+
+
+
+
+
+
+/**************************************
+circles
+**************************************/
+
+
+.red-circle {
+
+	background-color:#C00;
+	/*background: url(http://link-to-your/image.jpg) no-repeat;*/
+	width: 50px;
+	height: 50px;
+	padding:0 0 0 0;
+	margin:14px 0 0 15px;
+	float:left;		
+	overflow:hidden;
+
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+
+}
+
+
+
+.blue-circle {
+
+	background-color:blue;
+	/*background: url(http://link-to-your/image.jpg) no-repeat;*/
+	width: 50px;
+	height: 50px;
+	padding:0 0 0 0;
+	margin:14px 0 0 15px;
+	float:left;		
+	overflow:hidden;
+
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+
+}
+
+
+
+
+.myTitle {
+
+
+	/*horizontal-align: center;*/
+	
+	/*background-color:lightgoldenrodyellow;*/
+
+    width:90%;
+    height:auto;
+    margin: 10px 0 10px 2.5%;
+    padding:10px 0 10px 2.5%;
+
+    position:relative;
+    float:left;
+
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	color:#CCC;
+	text-align: center; /* IMPORTANT this can cause a shift in divs if set to the right or left*/
+
+	overflow:hidden;
+
+
+}
+
+
+
+
+.myDiv {
+
+
+	/*horizontal-align: center;*/
+	
+	/*background-color:lightgoldenrodyellow;*/
+
+    width:90%;
+    height:auto;
+    margin: 10px 0 10px 2.5%;
+    padding:10px 0 10px 2.5%;
+
+    position:relative;
+    float:left;
+
+    font-size: 14px;
+
+    text-align:left;
+	color:black;
+	
+	/*border:1px solid lightgray;*/
+
+}
+
+
+
+.myNotes {
+
+
+	/*horizontal-align: center;*/
+	
+	background-color:#fcfcfc;
+
+    width:80%;
+    height:auto;
+    margin: 10px 0 10px 9%;
+    padding:10px 0 10px 1%;
+
+    position:relative;
+    float:left;
+
+    font-size: 18px;
+
+    text-align:left;
+	color:black;
+	
+	border:2px solid #07a2e3;
+
+}
+
+
+
+

@@ -1,0 +1,15 @@
+
+***
+cd ~/path/to/your/base-nodejs
+
+
+***
+npm install
+
+
+*** 
+npm start
+
+
+*** 
+npm run start:nodemon

@@ -1,0 +1,32 @@
+
+
+
+/*************************************
+//btn-submit
+*************************************/
+
+.button {
+  
+   
+    background-color:#07a2e3;  
+
+    width:200px;
+    height:auto;
+    margin:20px auto;
+    padding:12px 0 10px 0;
+
+    /*position:relative;
+    float:left;*/
+
+    font-size: 18px;
+    font-weight:500;
+    text-align:center;
+    color:white;
+
+    border-radius:7px;
+
+    cursor:pointer;
+
+
+}
+

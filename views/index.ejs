@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title_tag %></title>
+
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        
+        <!--//#### VIEWPORT ####//-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="HandheldFriendly" content="true">
+        
+        <!--//#### PREVENT CACHE ####//-->
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="01 Jan 1970 00:00:00 GMT">
+        <meta http-equiv="pragma" content="no-cache">
+        
+        
+        <!--//#### KEYWORDS N DESCRIPTION ####//-->
+        <meta name="keywords" content="<%= meta_keywords %>">
+        <meta name="description" content="<%= meta_description %>">
+        
+        <!--//#### ROBOTS index,noindex,follow,nofollow ####//-->
+        <meta name="robots" content="<%= meta_robots %>">
+        
+        
+    
+        <!--//########## ICON 
+        <link rel="icon" type="image/x-icon" href="<%= relative_public %>grfx/favicon.ico">
+        #########//-->
+        
+        <!--//########## ICON #########//-->
+        <link rel="icon" type="image/x-icon" href="<%= favicon %>">
+        
+
+
+        <!--//##########  #########//-->
+
+        <link type="text/css" rel="stylesheet" media="screen, handheld" href="css/basx.css" />
+        <link type="text/css" rel="stylesheet" media="screen, handheld" href="css/button.css" />
+
+
+        <!--//########## 
+            
+        TM - add your scripts here
+            
+        #########//-->
+
+        <script src="js/Ajaxd.js"> </script>
+   
+
+
+    </head>
+    <body>
+
+        <div class="myTitle">Base NodeJS</div>
+        <div class="myDiv">
+            
+            <div class='button' onclick='javascript:Ajaxd();'>Sample Ajax</div>
+            <div class='button' onclick='javascript:Ajaxd();'>Sample Ajax 2</div>
+        
+        </div>
+
+
+        <div class="myNotes">
+
+
+
+            /views/index.ejs - Same as html - Look here for main index
+
+            <br/>
+            <br/>
+
+
+            /router/root.js - handles root path of website passes variables to ( /view/index.ejs )
+
+            <br/>
+            <br/>
+
+
+            /process/Ajaxd.js - Is document to run server side code.
+
+            <br/>
+            <br/>
+
+
+            /public/js/Ajaxd.js - JavaScript function to run "Ajax Post" to the server side document ( /process/Ajaxd.js )
+
+            <br/>
+            <br/>
+
+  
+        </div>
+
+
+    </body>
+
+</html>
