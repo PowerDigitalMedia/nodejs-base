@@ -1,19 +1,8 @@
-//##########################################################
-
 const APP_PATH = __dirname.split(process.env.APP_FOLDER)[0] + "" + process.env.APP_FOLDER + "/";
 const RELEVANT_PATH = process.env.APP_FOLDER + "" + __dirname.split(process.env.APP_FOLDER)[1] +"/";
 const LIBRARY_PATH = APP_PATH + "library/";
 const PUBLIC_PATH = APP_PATH + "public/";
 
-
-
-
-
-
-//#######################################################################################
-//#######################################################################################
-//#######################################################################################
-//MODEX
 
 module.exports=function(app)
 {
@@ -25,13 +14,6 @@ module.exports=function(app)
         //req.headers.host : pull website database, bucket, cookie etc
 
 
-        //############################################################################
-        //############################################################################
-        //############################################################################
-     
-		//=================================
-		//HTTP OR HTTPS
-			
 	    if(req.secure 
 		|| req.get('X-Forwarded-Proto') == 'https'
 		) 
@@ -42,9 +24,6 @@ module.exports=function(app)
 		}//#
 
 			
-		//=================================
-		//DOMAIN / SUBDOMAIN
-
 		var domain = req.headers.host;
 		var domArr = domain.split('.');
 			 
@@ -70,13 +49,6 @@ module.exports=function(app)
 
 
 
-
-
-
-        //############################################################################
-        //############################################################################
-        //############################################################################
-     
 		var route = '';
         if(req.params[0] && req.params[0] != undefined) var route = req.params[0];
         
@@ -111,13 +83,7 @@ module.exports=function(app)
        else title_tag = "Base NodeJS (root)";
 
 
-
-        //############################################################################
-        //############################################################################
-        //############################################################################
-
-        //TM - note variables sent here are passed to index page 
-    
+        //NOTE - variables sent here are passed to index page 
     
         res.render('index', {
 
@@ -134,7 +100,6 @@ module.exports=function(app)
 
         });
 
-    
 
     
     })
